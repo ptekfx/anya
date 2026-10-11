@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-  <meta name="google-site-verification" content="h-Mz9-8ISIhSAkOviuwaq1QsZWc0BUNPedvjzRjTRyM" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Happy Birthday Anya 💗</title>
 <meta name="description" content="Happy Birthday Anya 💗 — ye website sirf tere liye hai.">
@@ -282,8 +281,8 @@ lightbox.addEventListener('click',e=>{if(e.target===lightbox)lightbox.classList.
 function openLightbox(s){lbImg.src=s;lightbox.classList.add('open')}
 
 // messages
-document.getElementById('m1').textContentAnya kass ma tujhe bata sakta ma tujhe kitna chata hu, i love you i love you very very much anya🫣, ma ankhe band karta hu toh tumhe dekhta hu ankhe kholta hu toh tumhe dekhna chata hu,tum pass nhi hoti toh tumhe apne charo taraf mahsus karta hu har pall har wakt har ghadi,mere naina har wakt meri anya ko dhundte h isse pyar kaho ya pagl pan ya mere dill ki dhadkan mere liye ek hi bate h,pyar toh bhot log karte h prr mera jaisa koi nhi kar sakta kyuki unke pass tumm nhi ho.🎀🫶
-Ma tumhe bhul nhi sakta ma tumhe bhulna hi nhi chata, tum meri ho ma tumhe jindagi bhar pyar karunga marte damm tak pyar karunga aur marne ke badd bhi. 💗🧿=``;
+document.getElementById('m1').textContent=`Anya kass ma tujhe bata sakta ma tujhe kitna chata hu, i love you i love you very very much anya🫣, ma ankhe band karta hu toh tumhe dekhta hu ankhe kholta hu toh tumhe dekhna chata hu,tum pass nhi hoti toh tumhe apne charo taraf mahsus karta hu har pall har wakt har ghadi,mere naina har wakt meri anya ko dhundte h isse pyar kaho ya pagl pan ya mere dill ki dhadkan mere liye ek hi bate h,pyar toh bhot log karte h prr mera jaisa koi nhi kar sakta kyuki unke pass tumm nhi ho.🎀🫶
+Ma tumhe bhul nhi sakta ma tumhe bhulna hi nhi chata, tum meri ho ma tumhe jindagi bhar pyar karunga marte damm tak pyar karunga aur marne ke badd bhi. 💗🧿`;
 document.getElementById('m2').textContent=`Happy Birthday, Meri Jaan Anya ❤️🎂🫶🏻
 Sach kahun toh tu meri life ka woh hissa hai jiske bina sab kuch adhura sa lagta hai. Teri smile, teri cute si baatein aur tera mujhe tang karna, ab meri favourite cheezein ban gayi hain. 🥹❤️
 Pata nahi tujhe ehsaas hai ya nahi, par tu mere liye bahut special hai. Main bas chahta hoon ki tu hamesha khush rahe aur teri smile kabhi kam na ho. Tere saath aur bhi bahut saari beautiful memories banana chahta hoon. 💗🧿
@@ -304,7 +303,7 @@ Anya, tu hi mera sabse haseen khwaab hai. 💋♾️`;
 const song=new Audio('heeriye.mp3');song.loop=true;song.preload='auto';
 const pb=document.getElementById('playBtn'),bar=document.getElementById('bar'),sname=document.getElementById('songNote');
 function setPlay(p){pb.textContent=p?'❚❚':'▶'}
-pb.onclick=()=>{ if(song.paused){song.play().then(()=>setPlay(true)).catch(()=>{sname.textContent='add heeriye.mp3 in the same folder 🎵'})} else {song.pause();setPlay(false)} };
+pb.onclick=()=>{ if(song.paused){song.play().then(()=>setPlay(true)).catch(()=>{sname.textContent='for uh'})} else {song.pause();setPlay(false)} };
 song.addEventListener('timeupdate',()=>{if(song.duration)bar.style.width=(song.currentTime/song.duration*100)+'%'});
 song.addEventListener('error',()=>{sname.textContent='jst for uh'});
 
